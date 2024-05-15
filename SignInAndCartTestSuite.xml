@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SignInAndCartTestSuite" verbose="1" >
+    <test name="SignInAndCartTest" >
+        <classes>
+            <class name="SignInPageTest" />
+            <class name="ProductsPageTest" />
+            <class name="CheckOutInfoPageTest" />
+        </classes>
+    </test>
+</suite>
